@@ -5,3 +5,9 @@
 
 /* ease fade in out */
 .ease { -webkit-transition: all 0.5s ease-out; -moz-transition: all 0.5s ease-out; -o-transition: all 0.5s ease-out; -ms-transition: all 0.5s ease-out; transition: all 0.5s ease-out; }
+
+/* fade for pages */
+.fade{animation:fadeInAnimation ease .5s;animation-iteration-count:1;animation-fill-mode:forwards}
+@keyframes fadeInAnimation{0%{opacity:0}
+100%{opacity:1}
+}

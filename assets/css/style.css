@@ -1,8 +1,10 @@
 @import "components/appbar.css";
 @import "components/animations.css";
+@import "components/inputs.css";
+@import "components/buttons.css";
 
 :root {
-	--theme-bg: #1976d2;
+	--theme-bg: #3f51b5;
 }
 
 *, *::before, *::after { box-sizing: inherit; }
@@ -21,6 +23,13 @@ object{width:100%;}
 .dn{display:none}
 
 /* flex properties */
-.jcn{justify-content:center;}
+.jcc{justify-content:center;}
 .jcl{justify-content:left;}
 .jcr{justify-content:right;}
+.aic{align-items:center;}
+
+/* height & width */
+.h100vh { height: 100vh; }
+.h100 { height: 100%; }
+.w100 { width: 100%; }
+.h50{ height: 50px;}
