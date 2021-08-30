@@ -7,6 +7,9 @@
 // fadein page load
 function fade() {  document.body.style.opacity='1' };
 
+// header footer init
+$( "header" ).load( "views/header.html" );
+
 function initRoutes () {
   var Routes = {
 
@@ -34,12 +37,6 @@ function initRoutes () {
 
   page('*', function(){ console.log('404 Page not Found') });
   page();
-
-/*  function login(ctx){
-  $('body')
-    .empty()
-    .append('<h1>' + ctx.user.name + '<h1>');
-}*/
 
 }
 
