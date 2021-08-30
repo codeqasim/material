@@ -1,0 +1,2 @@
+.card{padding:20px 15px;position:relative;overflow:hidden;border-radius:4px;background:#fff;-webkit-box-shadow:0 2px 1px -1px rgb(0 0 0 / 20%),0 1px 1px 0 rgb(0 0 0 / 14%),0 1px 3px 0 rgb(0 0 0 / 12%);box-shadow:0 2px 1px -1px rgb(0 0 0 / 20%),0 1px 1px 0 rgb(0 0 0 / 14%),0 1px 3px 0 rgb(0 0 0 / 12%)}
+.card h2 { margin: 0 0px 22px; text-transform: capitalize; }

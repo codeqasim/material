@@ -15,17 +15,20 @@ function initRoutes () {
 
     home : function(context, next){ 
     $( "#root" ).load( "views/home.html" );
+    window.scroll(0,1);
     },
     
     login : function(context, next){ 
     $( "#root" ).load( "views/login.html" );
+    window.scroll(0,1);
     },
     
     singup : function(context, next){ 
     $( "#root" ).load( "views/signup.html" );
+    window.scroll(0,1);
     },
 
-    notfound : function (context, next) { document.location.href="/"; },
+    notfound : function (context, next) { window.scroll(0,1); document.location.href="/"; },
 
   };
 
@@ -35,7 +38,7 @@ function initRoutes () {
   page('/signup', Routes.singup, );
   page('/singup/*', Routes.singup);
 
-  page('*', function(){ $( "#root" ).load( "views/404.html" ); });
+  page('*', function(){ window.scroll(0,1);$( "#root" ).load( "views/404.html" ); });
   page();
 
 }

@@ -1,0 +1,6 @@
+.drop{position:relative}
+.drop ul{position:absolute;left:-100px;top:3em;transition:all .3s ease;transform:scale(0);transform-origin:top;box-shadow:0 2px 4px 0 rgb(0 0 0 / 16%),0 2px 8px 0 rgb(0 0 0 / 12%);background:#fff;padding:0;}
+.drop ul li{display:block;width:100%}
+.drop ul li a{width:100%;padding:1em 18px;display:inline-block;white-space:pre;box-sizing:border-box;color: #000 !important;}
+.drop ul li a:hover{background:#ebebeb}
+.drop:hover ul{transform:scale(1)}
