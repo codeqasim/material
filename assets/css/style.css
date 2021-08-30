@@ -4,6 +4,7 @@
 @import "components/buttons.css";
 @import "components/cards.css";
 @import "components/dropdown.css";
+@import "components/footer.css";
 
 :root {
 	--theme-bg: #3f51b5;

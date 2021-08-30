@@ -9,6 +9,7 @@ function fade() {  document.body.style.opacity='1' };
 
 // header footer init
 $( "header" ).load( "views/header.html" );
+$( "footer" ).load( "views/footer.html" );
 
 function initRoutes () {
   var Routes = {

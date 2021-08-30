@@ -1,0 +1,10 @@
+footer { padding: 12px; font-size: 12px; margin-top: 100px; background: #424242; color: #fff; width: 100%; justify-content: center; }
+footer .contents { align-items: center; display: flex; flex-flow: row wrap; padding: 8px; }
+footer .contents a{ justify-content: center; align-items: center; }
+footer .rights { display: flex; flex: 1; justify-content: flex-end; text-align: center; min-width: 225px }
+footer .brand-icon { height: 50px; }
+footer .brand-text { display: inline-block; line-height: 50px; margin: 0 40px; vertical-align: bottom; padding: 0; }
+footer .version { display: flex; justify-content: center; align-items: center; flex: 1; background: rgba(255, 255, 255, 0.12); border-radius: 5px; padding: 10px;}
+footer .version img { height: 40px; margin: 10px 0 10px 16px; }
+footer .version p { margin: 0 40px; }
+footer a { color: #fff; }
