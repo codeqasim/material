@@ -6,8 +6,7 @@ function initRoutes () {
   var Routes = {
 
     home : function(context, next){ 
-    var html = document.open('views/home.html');
-    document.getElementById("root").innerHTML=html;
+    document.getElementById("root").innerHTML='<object type="text/html" data="views/home.html" ></object>';
     },
     
     login : function(context, next){ 
