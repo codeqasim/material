@@ -35,7 +35,7 @@ function initRoutes () {
   page('/signup', Routes.singup, );
   page('/singup/*', Routes.singup);
 
-  page('*', function(){ console.log('404 Page not Found') });
+  page('*', function(){ $( "#root" ).load( "views/404.html" ); });
   page();
 
 }

@@ -15,3 +15,13 @@ header.fixed{position:fixed;width:100%;}
 header.bottom{bottom:0px;}
 header ul li a { padding: 6px 8px; font-size: 0.8rem; min-width: 64px; box-sizing: border-box; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; font-weight: 500; line-height: 1.75; border-radius: 4px; letter-spacing: 0.02857em; text-transform: uppercase; border:0;cursor:pointer;margin:0;display:inline-flex;outline:0;position:relative;align-items:center;user-select:none;vertical-align:middle;-moz-appearance:none;justify-content:center;text-decoration:none;background-color:transparent;-webkit-appearance:none;-webkit-tap-highlight-color:transparent; color: #fff !important;-webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out; transition: all 0.2s ease-out; }
 header ul li a:hover { background-color: rgba(0,0,0,.2) }
+
+/* appbar light theme */
+
+header.light { background: #f5f5f5; }
+header.light .brand { color: #000 !important }
+header.light .icon svg { fill: #000 !important }
+header.light .search svg { fill: #000 !important }
+header.light .search input { background-color: rgb(0 0 0 / 12%); color:#000 }
+header.light .search input::placeholder{color:#000}
+header.light ul li a{color: #000 !important}

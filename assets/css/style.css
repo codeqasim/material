@@ -34,3 +34,6 @@ object{width:100%;}
 .h100 { height: 100%; }
 .w100 { width: 100%; }
 .h50{ height: 50px;}
+
+/* background */
+.bgg { background: #f5f5f5; }
