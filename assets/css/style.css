@@ -1,4 +1,5 @@
 @import "components/appbar.css";
+@import "components/drawer.css";
 @import "components/animations.css";
 @import "components/inputs.css";
 @import "components/buttons.css";
@@ -7,11 +8,12 @@
 @import "components/footer.css";
 
 :root {
+	--theme-icon: #3f51b5;
 	--theme-bg: #3f51b5;
 	--theme-text: #3f51b5;
 }
 
-*, *::before, *::after { box-sizing: inherit; }
+*, *::before, *::after { box-sizing: inherit; scroll-behavior:smooth; }
 html { box-sizing: border-box; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 body { color: rgba(0, 0, 0, 0.87); margin: 0; font-size: 0.875rem; font-family: "system-ui", "Helvetica", "Arial", sans-serif; font-weight: 400; line-height: 1.43; letter-spacing: 0.01071em; background-color: #fff; opacity: 0; transition: opacity 0.1s; -webkit-transition: opacity 0.1s; }
 a,a:visited{color:#000;text-decoration:none;}
