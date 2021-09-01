@@ -22,6 +22,9 @@ input{ width: 100%; display: block; -webkit-transition: all 0.5s ease-out; -moz-
 ul{padding: 0 15px; list-style: none;}
 object{width:100%;}
 
+/* for angular loading */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak { display: none !important; }   
+
 /* display  */
 .df{display:flex;}
 .dif{display:inline-flex;}
