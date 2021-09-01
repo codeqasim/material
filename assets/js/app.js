@@ -34,7 +34,6 @@ templateUrl: './views/signup.html',
     }
 }).
 
-
 otherwise({
 redirectTo: '/'
 });
@@ -48,12 +47,12 @@ $locationProvider.html5Mode(true);
 
 .directive('headdrop', function() {
     return {
-        restrict: 'E',
-templateUrl: './views/partials/headdrop.html',
+    restrict: 'E',
+    templateUrl: './views/partials/headdrop.html',
     };
 });
 
-app.controller('Home', ['$http','$scope',function ($http,$scope) {
+app.controller('home', ['$http','$scope',function ($http,$scope) {
 
 }]);
 
