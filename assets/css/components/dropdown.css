@@ -1,6 +1,14 @@
-.drop{position:relative}
-.drop ul{border-radius:4px;position:absolute;left:-100px;top:1em;z-index:100;transition:all .3s ease;transform:scale(0);transform-origin:top;background:#fff;padding:0;box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px; }}
-.drop ul li{display:block;width:100%}
-.drop ul li a{width:100%;padding:0.6em 18px;display:inline-block;white-space:pre;box-sizing:border-box;color: #000 !important;}
-.drop ul li a:hover{background:rgba(0, 0, 0, 0.04)}
-.drop:hover ul{transform:scale(1)}
+#dropdown_control{display:none;}
+#dropdown_control:checked + label > .dropdown-overlay{ opacity: 1; pointer-events: all; }
+#dropdown_control:checked + label > .dropdown-overlay .dropdown ul{ transform: scale(1); }
+
+.dropdown-overlay{position:fixed;top:0;left:0;pointer-events:none;opacity:0;z-index:9;height:100%;width:100%;-webkit-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease;background:#00000075}
+
+.dropdown{position:relative}
+.dropdown ul{border-radius:4px;position:absolute;z-index:100;transition:all .3s ease;transform:scale(0);transform-origin:top;background:#fff;padding:0;box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px; }}
+.dropdown ul li{display:block;width:100%}
+.dropdown ul li a{width:100%;padding:0.6em 18px;display:inline-block;white-space:pre;box-sizing:border-box;color: #000 !important;}
+.dropdown ul li a:hover{background:rgba(0, 0, 0, 0.04)}
+/*.dropdown:hover ul{transform:scale(1)}*/
+
+

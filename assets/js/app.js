@@ -1,3 +1,5 @@
+var views_modules = "./views/modules/"
+
 var app = angular.module('app', ['ngRoute','ngMeta']);
 
 app.config(['$locationProvider', '$routeProvider','ngMetaProvider', function ($locationProvider, $routeProvider,ngMetaProvider) {
@@ -15,7 +17,7 @@ templateUrl: './views/home.html',
 }).
 
 when('/login', {
-templateUrl: './views/login.html',
+templateUrl: views_modules+'account/login.html',
  data: {
       meta: {
         'title': 'Login',
@@ -25,7 +27,7 @@ templateUrl: './views/login.html',
 }).
 
 when('/signup', {
-templateUrl: './views/signup.html',
+templateUrl: views_modules+'account/signup.html',
  data: {
       meta: {
         'title': 'Signup',
@@ -35,7 +37,7 @@ templateUrl: './views/signup.html',
 }).
 
 when('/blog', {
-templateUrl: './views/blog/index.html',
+templateUrl: views_modules+'blog/index.html',
  data: {
       meta: {
         'title': 'Blog',
@@ -72,7 +74,3 @@ $locationProvider.html5Mode(true);
 app.controller('home', ['$http','$scope',function ($http,$scope) {
 
 }]);
-
-
-
-

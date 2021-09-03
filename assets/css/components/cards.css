@@ -20,8 +20,8 @@ button.text:disabled{background:transparent;pointer-events:none;color:#505050}
 .card .card-ripple-container{position:relative;overflow:hidden;--ripple-color:#00000024;padding:20px 15px;cursor:pointer}
 .card .card-ripple-container:after{content:"";opacity:0;-webkit-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease;height:100%;width:100%;position:absolute;background:#0000001a;top:0;left:0;z-index:2;pointer-events:none}
 .card .card-ripple-container:hover:after{opacity:1}
-.card .card-title{font-size:1.25rem!important;font-weight:500}
-.card .card-meta-text{color:#0000008a;font-size:.875rem;line-height:1.25rem}
+.card h3{font-size:1.25rem!important;font-weight:500}
+.card h4{color:#0000008a;font-size:.875rem;line-height:1.25rem;font-weight: 600;}
 .card .card-footer{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:8px 6px}
 .card .card-footer-start{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;margin-right:auto}
 .card .card-footer-end{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;margin-left:auto;display:-webkit-box;display:-ms-flexbox;display:flex}
