@@ -26,7 +26,7 @@ button.text:disabled{background:transparent;pointer-events:none;color:#505050}
 .card .card-footer-start{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;margin-right:auto}
 .card .card-footer-end{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;margin-left:auto;display:-webkit-box;display:-ms-flexbox;display:flex}
 .card .card-meta-title{font-size:.875rem!important;color:#0000008a;margin-bottom:10px}
-.card .card-header.header-before{padding:12px 15px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.card .card-header.header-before{padding:12px 0px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.card .card-header.header-before img{border-radius: 60px; height: 40px; width: 40px; margin: 0 15px}
 .card .row{-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;}
-.rounded-xll{border-radius:50px}
 .card h4,.card h3 {margin:0}

@@ -34,6 +34,16 @@ templateUrl: './views/signup.html',
     }
 }).
 
+when('/blog', {
+templateUrl: './views/blog/index.html',
+ data: {
+      meta: {
+        'title': 'Blog',
+        'description': ''
+      }
+    }
+}).
+
 otherwise({
 redirectTo: '/'
 });
@@ -45,12 +55,19 @@ $locationProvider.html5Mode(true);
     ngMeta.init();
 }])
 
-.directive('headdrop', function() {
+.directive('dropdown', function() {
     return {
     restrict: 'E',
-    templateUrl: './views/partials/headdrop.html',
+    templateUrl: './views/_elements/dropdown.html',
     };
-});
+})
+
+.directive('card', function() {
+    return {
+    restrict: 'E',
+    templateUrl: './views/_elements/card.html',
+    };
+})
 
 app.controller('home', ['$http','$scope',function ($http,$scope) {
 

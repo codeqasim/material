@@ -1,5 +1,5 @@
 .drop{position:relative}
-.drop ul{border-radius:4px;position:absolute;left:-100px;top:3em;transition:all .3s ease;transform:scale(0);transform-origin:top;background:#fff;padding:0;box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px; }}
+.drop ul{border-radius:4px;position:absolute;left:-100px;top:1em;z-index:100;transition:all .3s ease;transform:scale(0);transform-origin:top;background:#fff;padding:0;box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px; }}
 .drop ul li{display:block;width:100%}
 .drop ul li a{width:100%;padding:0.6em 18px;display:inline-block;white-space:pre;box-sizing:border-box;color: #000 !important;}
 .drop ul li a:hover{background:rgba(0, 0, 0, 0.04)}
