@@ -90,4 +90,28 @@ app.controller('home', ['$http','$scope',function ($http,$scope) {
 
 }
 
-]);
+])
+
+app.controller('blog', ['$http','$scope',function ($http,$scope) {
+
+    
+  $scope.blogs = [
+    {
+      "name":"friend1",
+      "email":"email1@gmail.com"
+    },
+    {
+      "name":"friend2",
+      "email":"email2@gmail.com"
+    },
+    {
+      "name":"friend3",
+      "email":"email4@gmail.com"
+    }
+  ];
+
+}
+
+])
+
+
