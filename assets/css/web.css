@@ -30,3 +30,24 @@ label>span{font-size:22px;float:right;transition:-webkit-transform .2s ease;tran
 .getting_started .sidebar { flex-basis: calc(20%); flex-shrink: 0; height: 100vh; overflow: auto; } 
 .getting_started .elements { flex-basis: calc(80%); position: relative; height: 100vh; overflow: auto; } 
 .getting_started .elements .head{ background: #edf3ff; padding: 0 20px; min-height: 80px; display: flex; align-items: center; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; font-size: 1rem; color: var(--theme-text); } 
+.getting_started .elements .script{ padding: 0 22px; } 
+
+pre[class*=language-].line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}
+pre[class*=language-].line-numbers>code{position:relative;white-space:inherit}
+.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:0;font-size:100%;left:-3.8em;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}
+.line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}
+code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:0;text-shadow:0 1px rgba(0,0,0,0.3);font-family:Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;tab-size:4;hyphens:none}
+pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}
+:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}
+:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}
+.token.comment,.token.prolog,.token.doctype,.token.cdata{color:slategray}
+.token.punctuation{color:#f8f8f2}
+.namespace{opacity:.7}
+.token.property,.token.tag,.token.constant,.token.symbol,.token.deleted{color:#f92672}
+.token.boolean,.token.number{color:#ae81ff}
+.token.selector,.token.attr-name,.token.string,.token.char,.token.builtin,.token.inserted{color:#a6e22e}
+.token.operator,.token.entity,.token.url,.language-css .token.string,.style .token.string,.token.variable{color:#f8f8f2}
+.token.atrule,.token.attr-value,.token.function,.token.class-name{color:#e6db74}
+.token.keyword{color:#66d9ef}
+:not(pre)>code[class*=language-],pre[class*=language-]{background:#272c34;border-radius:6px;}

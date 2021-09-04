@@ -1,4 +1,4 @@
-var views_modules = "./views/modules/"
+var views_modules = "./app/views/modules/"
 
 var app = angular.module('app', ['ngRoute','ngMeta']);
 
@@ -7,7 +7,7 @@ app.config(['$locationProvider', '$routeProvider','ngMetaProvider', function ($l
 $routeProvider.
 
 when('/', {
-templateUrl: './views/home.html',
+templateUrl: './app/views/home.html',
  data: {
       meta: {
         'title': 'Material CSS',
@@ -17,7 +17,7 @@ templateUrl: './views/home.html',
 }).
 
 when('/getting-started', {
-templateUrl: './views/web/getting-started.html',
+templateUrl: './app/views/web/getting-started.html',
  data: {
       meta: {
         'title': 'Getting Started',
@@ -71,17 +71,25 @@ $locationProvider.html5Mode(true);
 .directive('dropdown', function() {
     return {
     restrict: 'E',
-    templateUrl: './views/_elements/dropdown.html',
+    templateUrl: './app/views/_elements/dropdown.html',
     };
 })
 
 .directive('card', function() {
     return {
     restrict: 'E',
-    templateUrl: './views/_elements/card.html',
+    templateUrl: './app/views/_elements/card.html',
     };
 })
 
 app.controller('home', ['$http','$scope',function ($http,$scope) {
 
-}]);
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = "./assets/js/prism.js";
+document.body.appendChild(script);
+
+}
+
+
+]);
