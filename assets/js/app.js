@@ -16,6 +16,17 @@ templateUrl: './views/home.html',
     }
 }).
 
+when('/getting-started', {
+templateUrl: './views/web/getting-started.html',
+ data: {
+      meta: {
+        'title': 'Getting Started',
+        'description': ''
+      }
+    }
+}).
+
+
 when('/login', {
 templateUrl: views_modules+'account/login.html',
  data: {
