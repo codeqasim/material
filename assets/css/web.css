@@ -39,6 +39,7 @@ label>span{font-size:22px;float:right;transition:-webkit-transform .2s ease;tran
 .getting_started .elements { flex-basis: calc(80%); position: relative; height: 100vh; overflow: auto; } 
 .getting_started .elements .head{ background: #edf3ff; padding: 0 20px; min-height: 80px; display: flex; align-items: center; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; font-size: 1rem; color: var(--theme-text); } 
 .getting_started .elements .script{ padding: 0 22px; } 
+.getting_started .elements .script .card{ margin: 25px 0; min-height: 200px; display: flex; justify-content: center; align-items: center; } 
 .docs{ display: flex; justify-content: center; align-items: center; text-align: center; } 
 
 pre[class*=language-].line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}

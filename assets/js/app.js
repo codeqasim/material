@@ -3,6 +3,11 @@ var app = angular.module('app', ['ngRoute','ngMeta']);
 
 app.config(['$locationProvider', '$routeProvider','ngMetaProvider', function ($locationProvider, $routeProvider,ngMetaProvider) {
 
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = "./assets/js/prism.js";
+document.body.appendChild(script);
+
 $routeProvider.
 
 when('/', {
@@ -20,6 +25,16 @@ templateUrl: './app/views/web/getting-started.html',
  data: {
       meta: {
         'title': 'Getting Started',
+        'description': ''
+      }
+    }
+}).
+
+when('/components-inputs', {
+templateUrl: './app/views/web/form_controls/inputs.html',
+ data: {
+      meta: {
+        'title': 'Inputs',
         'description': ''
       }
     }
@@ -83,10 +98,7 @@ $locationProvider.html5Mode(true);
 
 app.controller('home', ['$http','$scope',function ($http,$scope) {
 
-// var script = document.createElement('script');
-// script.type = 'text/javascript';
-// script.src = "./assets/js/prism.js";
-// document.body.appendChild(script);
+ 
 
 }
 
