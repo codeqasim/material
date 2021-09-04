@@ -11,23 +11,31 @@
 .side-menu .main{border-bottom:1px #fff}
 .side-menu{background:#fff;position:relative;z-index:100}
 .side-menu a,.side-menu label{padding:10px 26px;line-height:24px;margin:0;font-size:13px;cursor:pointer;position:relative;display:block;width:100%;text-align:left;background:0;border:0;text-decoration:none!important;align-items:center;height:48px;position:relative;overflow:hidden;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:currentColor}
-.side-menu a,.side-menu label strong{color:#004bff}
-.side-menu a:focus,.nav a:hover,.side-menu label:focus,.side-menu label:hover{background:rgba(3,3,3,0.07058823529411765)}
-.menu-list a,.menu-list label{padding-left:1rem;color:rgba(0,0,0,.54) text-decoration:none!important;display:flex;align-items:center;height:48px;padding:0 24px;position:relative;overflow:hidden;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:currentColor}
+.side-menu a,.side-menu label strong{color:#637381;padding-left: 24px;}
+.side-menu a,.side-menu label svg{fill:#637381;}
+.side-menu a:focus,.nav a:hover,.side-menu label:focus,.side-menu label:hover{background:rgb(64 82 181 / 21%)}
+.menu-list a,.menu-list label{padding-left:1rem;color:rgba(0,0,0,.54) text-decoration:none!important;display:flex;align-items:center;height:48px;padding:0 50px;position:relative;overflow:hidden;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:currentColor}
 .menu-list a:focus,.menu-list a:hover,.menu-list label:focus,.menu-list label:hover{color:#0942cb;background-color:rgba(0,0,0,.04)!important;text-decoration:none!important}
 .sub-menu-list a,.sub-menu-list label{padding-left:2rem;padding:4px 15px}
 .sub-menu-list a:focus,.sub-menu-list a:hover,.sub-menu-list label:focus,.sub-menu-list label:hover{color:#0942cb}
 .sub-sub-menu-list a,.sub-sub-menu-list label{padding-left:3rem;padding:4px 15px}
 .sub-sub-menu-list a:focus,.sub-sub-menu-list a:hover,.sub-sub-menu-list label:focus,.sub-sub-menu-list label:hover{color:#0942cb}
 .menu-list,.sub-menu-list,.sub-sub-menu-list{height:100%;max-height:0;overflow:hidden;transition:max-height .3s ease-in-out}
+.nav__list label{display: flex;}
 .nav__list input[type=checkbox]:checked+label+ul{max-height:1000px}
 label>span{font-size:22px;float:right;transition:-webkit-transform .2s ease;transition:transform .2s ease;transition:transform .2s ease,-webkit-transform .2s ease}
+.nav__list label>span{position: absolute; right: 20px;}
 .nav__list input[type=checkbox]:checked+label>span{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
-.side-menu label{margin-bottom:0;background:rgba(0,75,255,.1)}
-.side-menu label:after{content:"";position:absolute;left:0;top:0;display:flex;width:6px;height:100%;border-radius:0;background:#004bff}
+.nav__list input[type=checkbox]:checked+label{background:rgb(0 75 255 / 6%);fill: var(--theme-bg);}
+.nav__list input[type=checkbox]:checked+label strong{color: var(--theme-bg);}
+.nav__list input[type=checkbox]:checked+label svg{fill: var(--theme-bg);}
+.side-menu label{margin-bottom:0;display: flex;}
+.side-menu label:after{content:"";position:absolute;right:0;top:0;display:flex;width:3px;height:100%;border-radius:0;background:var(--theme-bg);}
+.svg-icon path, .svg-icon polygon, .svg-icon rect { fill: rgba(0,0,0,.5); }
+.svg-icon { width: 0.7em; height: 0.7em; }
 
 .getting_started { margin-top:-40px;display:flex; } 
-.getting_started .sidebar { flex-basis: calc(20%); flex-shrink: 0; height: 100vh; overflow: auto; } 
+.getting_started .sidebar { border-right: 1px solid rgba(145, 158, 171, 0.24);flex-basis: calc(20%); flex-shrink: 0; height: 100vh; overflow: auto; } 
 .getting_started .elements { flex-basis: calc(80%); position: relative; height: 100vh; overflow: auto; } 
 .getting_started .elements .head{ background: #edf3ff; padding: 0 20px; min-height: 80px; display: flex; align-items: center; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; font-size: 1rem; color: var(--theme-text); } 
 .getting_started .elements .script{ padding: 0 22px; } 
