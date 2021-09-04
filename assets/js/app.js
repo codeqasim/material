@@ -1,5 +1,4 @@
-var views_modules = "./app/views/modules/"
-
+var views_modules = "./app/views/modules/"; // modules views folder
 var app = angular.module('app', ['ngRoute','ngMeta']);
 
 app.config(['$locationProvider', '$routeProvider','ngMetaProvider', function ($locationProvider, $routeProvider,ngMetaProvider) {
@@ -84,12 +83,11 @@ $locationProvider.html5Mode(true);
 
 app.controller('home', ['$http','$scope',function ($http,$scope) {
 
-var script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = "./assets/js/prism.js";
-document.body.appendChild(script);
+// var script = document.createElement('script');
+// script.type = 'text/javascript';
+// script.src = "./assets/js/prism.js";
+// document.body.appendChild(script);
 
 }
-
 
 ]);
