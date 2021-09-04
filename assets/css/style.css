@@ -8,6 +8,7 @@
 @import "components/cards.css";
 @import "components/dropdown.css";
 @import "components/footer.css";
+@import "components/skeleton.css";
 
 :root {
 	--theme-icon: #3f51b5;

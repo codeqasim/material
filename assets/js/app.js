@@ -40,6 +40,15 @@ templateUrl: './app/views/web/form_controls/inputs.html',
     }
 }).
 
+when('/components-skeleton', {
+templateUrl: './app/views/web/skeleton.html',
+ data: {
+      meta: {
+        'title': 'Skeleton',
+        'description': ''
+      }
+    }
+}).
 
 when('/login', {
 templateUrl: views_modules+'account/login.html',
