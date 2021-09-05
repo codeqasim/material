@@ -81,8 +81,8 @@ templateUrl: views_modules+'blog/index.html',
 }).
 
 otherwise({
-// redirectTo: './'
-redirectTo: document.location.pathname
+   redirectTo: '/'
+// redirectTo: document.location.pathname
 });
 
 // enabling HTML5 history 
@@ -90,7 +90,9 @@ $locationProvider.html5Mode(true);
 }])
 
 // init ng meta 
-.run(['ngMeta', function(ngMeta) { ngMeta.init(); }])
+.run(['ngMeta', function(ngMeta) { 
+    ngMeta.init(); 
+}])
 
 .directive('dropdown', function() {
     return {
