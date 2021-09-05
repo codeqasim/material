@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<meta http-equiv="refresh" content="6000; ./timeout" />
 <title ng-bind="ngMeta.title"></title>
 <script>document.write('<base href="' + document.location + '" />');</script>
 <link rel="shortcut icon" href="assets/img/favicon.png">
 <meta name="description" content="" />
 <meta name="keywords" content="" />
-<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
 </head>
 <body>
 <header class="fixed" ng-include="'./app/views/header.html'"></header>
 <main ng-view></main>
 <footer ng-include="'./app/views/footer.html'"></footer>
-<script src="assets/js/angular.js"></script>
-<script src="assets/js/app.js"></script>
+<script src="./assets/js/angular.js"></script>
+<script src="./assets/js/app.js"></script>
 </body>
 </html>
-
