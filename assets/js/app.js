@@ -81,15 +81,16 @@ templateUrl: views_modules+'blog/index.html',
 }).
 
 otherwise({
-redirectTo: '/'
+// redirectTo: './'
+redirectTo: document.location.pathname
 });
 
+// enabling HTML5 history 
 $locationProvider.html5Mode(true);
 }])
 
-.run(['ngMeta', function(ngMeta) {
-    ngMeta.init();
-}])
+// init ng meta 
+.run(['ngMeta', function(ngMeta) { ngMeta.init(); }])
 
 .directive('dropdown', function() {
     return {
