@@ -50,6 +50,16 @@ templateUrl: './app/views/web/skeleton.html',
     }
 }).
 
+when('/components-tables', {
+templateUrl: './app/views/web/tables.html',
+ data: {
+      meta: {
+        'title': 'Tables',
+        'description': ''
+      }
+    }
+}).
+
 when('/login', {
 templateUrl: views_modules+'account/login.html',
  data: {
