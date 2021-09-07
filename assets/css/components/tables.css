@@ -1,5 +1,4 @@
-.table-container{border:1px solid rgba(0,0,0,.12);border-radius:4px;background:#fff;overflow:auto}
-table{width:100%;letter-spacing:.0178571429em;border-collapse:collapse}
+table{width:100%;letter-spacing:.0178571429em;border-collapse:collapse;border:1px solid rgba(0,0,0,.12);border-radius:4px;background:#fff;overflow:auto}
 table th{padding:16px;text-align:left;font-size:.875rem;font-weight:500}
 table tbody td{border-top:1px solid #e0e0e0;padding:16px;font-size:.875rem;font-weight:400}
 table tbody{margin:0;padding:0}
