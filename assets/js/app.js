@@ -20,8 +20,8 @@ templateUrl: './app/views/home.html',
     }
 }).
 
-when('/getting-started', {
-templateUrl: './app/views/web/getting-started.html',
+when('/components', {
+templateUrl: './app/views/web/components.html',
  data: {
       meta: {
         'title': 'Getting Started',
@@ -31,7 +31,17 @@ templateUrl: './app/views/web/getting-started.html',
 }).
 
 when('/components-inputs', {
-templateUrl: './app/views/web/form_controls/inputs.html',
+templateUrl: './app/views/web/inputs.html',
+ data: {
+      meta: {
+        'title': 'Inputs',
+        'description': ''
+      }
+    }
+}).
+
+when('/components-buttons', {
+templateUrl: './app/views/web/buttons.html',
  data: {
       meta: {
         'title': 'Inputs',
