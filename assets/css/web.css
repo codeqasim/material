@@ -30,7 +30,7 @@ label>span{font-size:22px;float:right;transition:-webkit-transform .2s ease;tran
 .nav__list input[type=checkbox]:checked+label strong{color: var(--theme-bg);}
 .nav__list input[type=checkbox]:checked+label svg{fill: var(--theme-bg);}
 .side-menu label{margin-bottom:0;display: flex;}
-.side-menu label:after{content:"";position:absolute;right:0;top:0;display:flex;width:3px;height:100%;border-radius:0;background:var(--theme-bg);}
+.nav__list input[type=checkbox]:checked+label:after{content:"";position:absolute;right:0;top:0;display:flex;width:3px;height:100%;border-radius:0;background:var(--theme-bg);}
 .svg-icon path, .svg-icon polygon, .svg-icon rect { fill: rgba(0,0,0,.5); }
 .svg-icon { width: 0.7em; height: 0.7em; }
 
