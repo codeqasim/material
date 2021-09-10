@@ -70,6 +70,16 @@ templateUrl: './app/views/web/tables.html',
     }
 }).
 
+when('/components-radio', {
+templateUrl: './app/views/web/radio.html',
+ data: {
+      meta: {
+        'title': 'Radio',
+        'description': ''
+      }
+    }
+}).
+
 when('/login', {
 templateUrl: views_modules+'account/login.html',
  data: {
@@ -79,6 +89,7 @@ templateUrl: views_modules+'account/login.html',
       }
     }
 }).
+
 
 when('/signup', {
 templateUrl: views_modules+'account/signup.html',

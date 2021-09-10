@@ -23,7 +23,7 @@
 .menu-list,.sub-menu-list,.sub-sub-menu-list{height:100%;max-height:0;overflow:hidden;transition:max-height .3s ease-in-out}
 .nav__list label{display: flex;}
 .nav__list input[type=checkbox]:checked+label+ul{max-height:1000px}
-label>span{font-size:22px;float:right;transition:-webkit-transform .2s ease;transition:transform .2s ease;transition:transform .2s ease,-webkit-transform .2s ease}
+.nav__list label>span{font-size:22px;float:right;transition:-webkit-transform .2s ease;transition:transform .2s ease;transition:transform .2s ease,-webkit-transform .2s ease}
 .nav__list label>span{position: absolute; right: 20px;}
 .nav__list input[type=checkbox]:checked+label>span{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
 .nav__list input[type=checkbox]:checked+label{background:rgb(0 75 255 / 6%);fill: var(--theme-bg);}
