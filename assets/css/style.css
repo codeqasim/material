@@ -11,6 +11,7 @@
 @import "components/skeleton.css";
 @import "components/tables.css";
 @import "components/checkbox_radio_switch.css";
+@import "components/linear.css";
 
 :root {
 	--theme-icon: #3f51b5;

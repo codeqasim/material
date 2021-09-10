@@ -80,6 +80,16 @@ templateUrl: './app/views/web/radio.html',
     }
 }).
 
+when('/components-linear', {
+templateUrl: './app/views/web/linear.html',
+ data: {
+      meta: {
+        'title': 'Linear',
+        'description': ''
+      }
+    }
+}).
+
 when('/login', {
 templateUrl: views_modules+'account/login.html',
  data: {
