@@ -15,7 +15,7 @@
 .side-menu a,.side-menu label svg{fill:#637381;}
 .side-menu a:focus,.nav a:hover,.side-menu label:focus,.side-menu label:hover{background:rgb(64 82 181 / 21%)}
 .menu-list a,.menu-list label{padding-left:1rem;color:rgba(0,0,0,.54) text-decoration:none!important;display:flex;align-items:center;height:34px;padding:0 50px;position:relative;overflow:hidden;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:currentColor}
-.menu-list a:focus,.menu-list a:hover,.menu-list label:focus,.menu-list label:hover{color:var(--theme-text);background-color:rgb(63 81 181 / 2%)!important;text-decoration:none!important}
+.menu-list a:focus,.menu-list a:hover,.menu-list label:focus,.menu-list label:hover{color:#fff;background-color:var(--theme-bg);text-decoration:none!important}
 .sub-menu-list a,.sub-menu-list label{padding-left:2rem;padding:4px 15px}
 .sub-menu-list a:focus,.sub-menu-list a:hover,.sub-menu-list label:focus,.sub-menu-list label:hover{color:#0942cb}
 .sub-sub-menu-list a,.sub-sub-menu-list label{padding-left:3rem;padding:4px 15px}

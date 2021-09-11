@@ -43,7 +43,11 @@ object{width:100%;}
 .jcc{justify-content:center;}
 .jcl{justify-content:left;}
 .jcr{justify-content:right;}
+.jcl{justify-content:left;}
+.jcc{justify-content:center;}
 .aic{align-items:center;}
+.ail{align-items:left;}
+.air{align-items:right;}
 
 /* height & width */
 .h100vh { height: 100vh; }
