@@ -13,7 +13,7 @@
 .side-menu a,.side-menu label{padding:10px 26px;line-height:24px;margin:0;font-size:13px;cursor:pointer;position:relative;display:block;width:100%;text-align:left;background:0;border:0;text-decoration:none!important;align-items:center;height:48px;position:relative;overflow:hidden;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:currentColor}
 .side-menu a,.side-menu label strong{color:#637381;padding-left: 24px;}
 .side-menu a,.side-menu label svg{fill:#637381;}
-.side-menu a:focus,.nav a:hover,.side-menu label:focus,.side-menu label:hover{background:rgb(64 82 181 / 21%)}
+.side-menu a:focus,.nav a:hover,.side-menu label:focus,.side-menu label:hover{background:var(--theme-bg-light);}
 .menu-list a,.menu-list label{padding-left:1rem;color:rgba(0,0,0,.54) text-decoration:none!important;display:flex;align-items:center;height:34px;padding:0 50px;position:relative;overflow:hidden;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:currentColor}
 .menu-list a:focus,.menu-list a:hover,.menu-list label:focus,.menu-list label:hover{color:#fff;background-color:var(--theme-bg);text-decoration:none!important}
 .menu-list a.active,.menu-list a.active{color: #fff; background-color: #7a8084; text-decoration: none!important; font-weight: bold;}
@@ -27,7 +27,7 @@
 .nav__list label>span{font-size:22px;float:right;transition:-webkit-transform .2s ease;transition:transform .2s ease;transition:transform .2s ease,-webkit-transform .2s ease}
 .nav__list label>span{position: absolute; right: 20px;}
 .nav__list input[type=checkbox]:checked+label>span{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
-.nav__list input[type=checkbox]:checked+label{background:rgb(0 75 255 / 6%);fill: var(--theme-bg);}
+.nav__list input[type=checkbox]:checked+label{background-color:var(--theme-bg-light);fill: var(--theme-bg);}
 .nav__list input[type=checkbox]:checked+label strong{color: var(--theme-bg);}
 .nav__list input[type=checkbox]:checked+label svg{fill: var(--theme-bg);}
 .side-menu label{margin-bottom:0;display: flex;}
