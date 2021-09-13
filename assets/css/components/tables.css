@@ -6,3 +6,6 @@ table tr{-webkit-transition:all .1s;-o-transition:all .1s;transition:all .1s}
 table tr:not(.table-head):hover{background:#f5f5f5}
 table tbody tr:last-child{border-radius:54px}
 table td,table th{white-space:normal}
+
+table .zoom img{width:28px;padding:0!important;border-radius:4px;-moz-transition:-moz-transform .1s ease-in;-webkit-transition:-webkit-transform .1s ease-in;-o-transition:-o-transform .1s ease-in;z-index:9999;display:block}
+table .zoom img:hover{box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.4588235294117647);-moz-transform:scale(3);-webkit-transform:scale(3);-o-transform:scale(3);z-index:9999!important;cursor:none}
