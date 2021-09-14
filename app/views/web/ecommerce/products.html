@@ -1,0 +1,52 @@
+<div class="pf w100">
+    <div class="getting_started">
+    <aside class="sidebar" ng-include="'app/views/web/_sidebar.html'"></aside>
+    <div class="elements">
+    
+    <div class="script">
+
+        <h2>Products</h2>
+        
+        <table>
+                <thead>
+                    <tr>
+                        <th>
+                        <label class="checkbox">
+                        <input type="checkbox" onclick="checkbox(this);">
+                        <span></span>
+                        </label>
+                        </th>
+                        <th>Thumb</th>
+                        <th>Product Name</th>
+                        <th>Created at</th>
+                        <th>Status</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                    <tr ng-repeat="x in [].constructor(10) track by $index">
+                        <td>
+                        <label class="checkbox">
+                        <input type="checkbox" name="checkbox">
+                        <span></span>
+                        </label>
+                        </td>
+                        <td class="zoom"><img src="https://api.kharidar.co/public/uploads/categories/categories-with-bg-final-14.jpg"></td>
+                        <td><strong>Nike React Infinity Run Flyknit A.I.R. Chaz Bear</strong></td>
+                        <td>12/10/2022</td>
+                        <td>In-Stock</td>
+                        <td><strong>$ 250</strong></td>
+                        <td class="df jcse">
+                            <button class="btn">Preview</button>
+                            <button class="btn green">Edit</button>
+                            <button class="btn red" >Delete</button>
+                        </td>
+                    </tr>
+    
+                    
+                </tbody>
+            </table>
+ 
+    </div>

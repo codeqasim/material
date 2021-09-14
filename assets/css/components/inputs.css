@@ -1,3 +1,4 @@
+/* filles */
 .filled{margin-bottom: 15px; position:relative;display:inline-block;font-family:var(--pure-material-font,"Roboto","Segoe UI",BlinkMacSystemFont,system-ui,-apple-system);font-size:16px;line-height:1.5;overflow:hidden}
 .filled>input,.filled>textarea{display:block;box-sizing:border-box;margin:0;border:0;border-top:solid 27px transparent;border-bottom:solid 1px rgba(var(--pure-material-onsurface-rgb,0,0,0),0.6);border-radius:4px 4px 0 0;padding:0 12px 10px;width:100%;height:inherit;color:rgba(var(--pure-material-onsurface-rgb,0,0,0),0.87);background-color:rgba(var(--pure-material-onsurface-rgb,0,0,0),0.04);box-shadow:none;font-family:inherit;font-size:inherit;line-height:inherit;caret-color:rgb(var(--pure-material-primary-rgb,33,150,243));transition:border-bottom .2s,background-color .2s}
 .filled>input+span,.filled>textarea+span{position:absolute;top:0;left:0;right:0;bottom:0;display:block;box-sizing:border-box;padding:7px 12px 0;color:rgba(var(--pure-material-onsurface-rgb,0,0,0),0.6);font-size:75%;line-height:18px;pointer-events:none;transition:color .2s,font-size .2s,line-height .2s}
@@ -13,4 +14,31 @@
 @media not all and (min-resolution:.001dpcm){@supports(-webkit-appearance:none){.filled>input,.filled>input+span,.filled>input+span::after,.filled>textarea,.filled>textarea+span,.filled>textarea+span::after{transition-duration:.1s}
 }}
 
+/* outline */
+.outlined{--helper-theme:var(--theme-bg);--matter-helper-safari1:rgba(var(--matter-onsurface-rgb,0,0,0),0.38);--matter-helper-safari2:rgba(var(--matter-onsurface-rgb,0,0,0),0.6);--matter-helper-safari3:rgba(var(--matter-onsurface-rgb,0,0,0),0.87);position:relative;display:inline-block;padding-top:6px;font-family:var(--matter-font-family,"Roboto","Segoe UI",BlinkMacSystemFont,system-ui,-apple-system);font-size:16px;line-height:1.5}
+.outlined>input,.outlined>textarea{box-sizing:border-box;margin:0;border-style:solid;border-width:1px;border-color:transparent var(--matter-helper-safari2) var(--matter-helper-safari2);border-radius:4px;padding:15px 13px 15px;width:100%;height:inherit;color:rgba(var(--matter-onsurface-rgb,0,0,0),0.87);-webkit-text-fill-color:currentColor;background-color:transparent;box-shadow:inset 1px 0 transparent,inset -1px 0 transparent,inset 0 -1px transparent;font-family:inherit;font-size:inherit;line-height:inherit;caret-color:var(--helper-theme);transition:border .2s,box-shadow .2s}
+.outlined>input:not(:focus):placeholder-shown,.outlined>textarea:not(:focus):placeholder-shown{border-top-color:var(--matter-helper-safari2)}
+.outlined>input+span,.outlined>textarea+span{position:absolute;top:0;left:0;display:flex;width:100%;max-height:100%;color:rgba(var(--matter-onsurface-rgb,0,0,0),0.6);font-size:75%;line-height:15px;cursor:text;transition:color .2s,font-size .2s,line-height .2s}
+.outlined>input:not(:focus):placeholder-shown+span,.outlined>textarea:not(:focus):placeholder-shown+span{font-size:inherit;line-height:68px}
+.outlined>input+span::before,.outlined>input+span::after,.outlined>textarea+span::before,.outlined>textarea+span::after{content:"";display:block;box-sizing:border-box;margin-top:6px;border-top:solid 1px var(--matter-helper-safari2);min-width:10px;height:8px;pointer-events:none;box-shadow:inset 0 1px transparent;transition:border .2s,box-shadow .2s}
+.outlined>input+span::before,.outlined>textarea+span::before{margin-right:4px;border-left:solid 1px transparent;border-radius:4px 0}
+.outlined>input+span::after,.outlined>textarea+span::after{flex-grow:1;margin-left:4px;border-right:solid 1px transparent;border-radius:0 4px}
+.outlined>input:not(:focus):placeholder-shown+span::before,.outlined>textarea:not(:focus):placeholder-shown+span::before,.outlined>input:not(:focus):placeholder-shown+span::after,.outlined>textarea:not(:focus):placeholder-shown+span::after{border-top-color:transparent}
+.outlined:hover>input,.outlined:hover>textarea{border-color:transparent var(--matter-helper-safari3) var(--matter-helper-safari3)}
+.outlined:hover>input+span::before,.outlined:hover>textarea+span::before,.outlined:hover>input+span::after,.outlined:hover>textarea+span::after{border-top-color:var(--matter-helper-safari3)}
+.outlined:hover>input:not(:focus):placeholder-shown,.outlined:hover>textarea:not(:focus):placeholder-shown{border-color:var(--matter-helper-safari3)}
+.outlined>input:focus,.outlined>textarea:focus{border-color:transparent var(--helper-theme) var(--helper-theme);box-shadow:inset 1px 0 var(--helper-theme),inset -1px 0 var(--helper-theme),inset 0 -1px var(--helper-theme);outline:0}
+.outlined>input:focus+span,.outlined>textarea:focus+span{color:var(--helper-theme)}
+.outlined>input:focus+span::before,.outlined>input:focus+span::after,.outlined>textarea:focus+span::before,.outlined>textarea:focus+span::after{border-top-color:var(--helper-theme)!important;box-shadow:inset 0 1px var(--helper-theme)}
+.outlined>input:disabled,.outlined>input:disabled+span,.outlined>textarea:disabled,.outlined>textarea:disabled+span{border-color:transparent var(--matter-helper-safari1) var(--matter-helper-safari1)!important;color:rgba(var(--matter-onsurface-rgb,0,0,0),0.38);pointer-events:none}
+.outlined>input:disabled+span::before,.outlined>input:disabled+span::after,.outlined>textarea:disabled+span::before,.outlined>textarea:disabled+span::after{border-top-color:var(--matter-helper-safari1)!important}
+.outlined>input:disabled:placeholder-shown,.outlined>input:disabled:placeholder-shown+span,.outlined>textarea:disabled:placeholder-shown,.outlined>textarea:disabled:placeholder-shown+span{border-top-color:var(--matter-helper-safari1)!important}
+.outlined>input:disabled:placeholder-shown+span::before,.outlined>input:disabled:placeholder-shown+span::after,.outlined>textarea:disabled:placeholder-shown+span::before,.outlined>textarea:disabled:placeholder-shown+span::after{border-top-color:transparent!important}
+@media not all and (min-resolution:.001dpcm){@supports(-webkit-appearance:none){.outlined>input,.outlined>input+span,.outlined>textarea,.outlined>textarea+span,.outlined>input+span::before,.outlined>input+span::after,.outlined>textarea+span::before,.outlined>textarea+span::after{transition-duration:.1s}
+}}
 
+/* select  */
+.outlined select{background:transparent;width:200px;height:35px;padding:5px;font-size:16px;line-height:1;border:0;border-radius:0;-webkit-appearance:none}
+.outlined select {width: 100%; padding: 16px; border: 1px solid #575757;min-height:35px;overflow:hidden;background:no-repeat right #fff;border-radius:3px 5px 5px 3px}
+.outlined select{padding-right:0;vertical-align:top!important;text-align:left;height:auto;line-height:1em}
+.outlined select ~ span {color: #484a4fe0; position: absolute; margin-left: -37px; margin-top: 18px; width: 10px; height: 10px; border-bottom: solid 1px currentColor; border-left: solid 1px currentColor; transform: rotate( -45deg);}

@@ -90,6 +90,26 @@ templateUrl: './app/views/web/linear.html',
     }
 }).
 
+when('/products', {
+templateUrl: './app/views/web/ecommerce/products.html',
+  data: {
+      meta: {
+        'title': 'Products List',
+        'description': ''
+      }
+    }
+}).
+
+when('/product-add', {
+  templateUrl: './app/views/web/ecommerce/productadd.html',
+    data: {
+        meta: {
+          'title': 'Product Add',
+          'description': ''
+        }
+      }
+  }).
+
 when('/login', {
 templateUrl: views_modules+'account/login.html',
  data: {
