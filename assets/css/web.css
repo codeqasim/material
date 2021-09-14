@@ -36,8 +36,8 @@
 .svg-icon { width: 0.7em; height: 0.7em; }
 
 .getting_started { margin-top:-36px;display:flex; } 
-.getting_started .sidebar { border-right: 1px solid rgba(145, 158, 171, 0.24);flex-basis: calc(20%); flex-shrink: 0; height: 100vh; overflow: auto; } 
-.getting_started .elements { padding: 20px 0px; flex-basis: calc(80%); position: relative; height: 100vh; overflow: auto; } 
+.getting_started .sidebar { border-right: 1px solid rgba(145, 158, 171, 0.24);flex-basis: calc(15%); flex-shrink: 0; height: 100vh; overflow: auto; } 
+.getting_started .elements { padding: 20px 0px; flex-basis: calc(85%); position: relative; height: 100vh; overflow: auto; } 
 .getting_started .elements .head{ background: #edf3ff; margin: 0 20px; padding: 20px; min-height: 80px; display: flex; align-items: center; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; border-radius: 6px; font-size: 1rem; color: var(--theme-text); } 
 .getting_started .elements .script{ padding: 0 22px; } 
 .getting_started .elements .script .card{ flex-wrap: wrap; gap: 12px; margin: 25px 0; min-height: 200px; display: flex; justify-content: center; align-items: center; } 
