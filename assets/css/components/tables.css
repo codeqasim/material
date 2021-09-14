@@ -1,4 +1,5 @@
 table{width:100%;letter-spacing:.0178571429em;border-collapse:collapse;border:1px solid rgba(0,0,0,.12);border-radius:4px;background:#fff;overflow:auto}
+table thead{background-color: rgb(244, 246, 248);}
 table th{padding:16px;text-align:left;font-size:.875rem;font-weight:500}
 table tbody td{border-top:1px solid #e0e0e0;padding:16px;font-size:.875rem;font-weight:400}
 table tbody{margin:0;padding:0}
@@ -8,4 +9,4 @@ table tbody tr:last-child{border-radius:54px}
 table td,table th{white-space:normal}
 
 table .zoom img{width:28px;padding:0!important;border-radius:4px;-moz-transition:-moz-transform .1s ease-in;-webkit-transition:-webkit-transform .1s ease-in;-o-transition:-o-transform .1s ease-in;z-index:9999;display:block}
-table .zoom img:hover{box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.4588235294117647);-moz-transform:scale(3);-webkit-transform:scale(3);-o-transform:scale(3);z-index:9999!important;cursor:none}
+table .zoom img:hover{box-shadow: 1px 2px 8px rgb(195 200 204);-moz-transform:scale(3);-webkit-transform:scale(3);-o-transform:scale(3);z-index:9999!important;cursor:none}

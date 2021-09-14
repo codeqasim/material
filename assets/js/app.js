@@ -180,3 +180,11 @@ app.controller('blog', ['$http','$scope',function ($http,$scope) {
 ])
 
 
+function checkbox(source) {
+
+var checkboxes = document.querySelectorAll('input[name="checkbox"]');
+for (var i = 0; i < checkboxes.length; i++) {
+if (checkboxes[i] != source)
+checkboxes[i].checked = source.checked;
+}
+}

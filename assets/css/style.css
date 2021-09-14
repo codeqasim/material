@@ -47,6 +47,7 @@ object{width:100%;}
 .jcr{justify-content:right;}
 .jcl{justify-content:left;}
 .jcc{justify-content:center;}
+.jcse{justify-content:space-evenly;}
 .aic{align-items:center;}
 .ail{align-items:left;}
 .air{align-items:right;}
