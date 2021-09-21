@@ -1,6 +1,5 @@
-.hero { /*background: #edf3ff; color: #0942cb; text-align: center; padding: 100px 45px;*/ }
-.hero h1 { margin: 0; font-size: 3.4rem; font-weight: 600; line-height: 1.1142857142857143; color: #0A1929; margin-top: 20px; margin-bottom: 20px; max-width: 500px; }
-.hero h1 strong { background: linear-gradient(to right, #007FFF, #0059B2); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.hero h1 { margin: 0; font-size: 3.4rem; font-weight: 600; line-height: 1.1142857142857143; color: #0A1929; margin-top: 20px; margin-bottom: 20px; }
+.hero h1 strong span{ background: linear-gradient(to right, #007FFF, #0059B2); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
 .hero h2 { font-size: 18px; font-weight: 300; line-height: 28px; margin: 15px 0 25px; }
 
 
