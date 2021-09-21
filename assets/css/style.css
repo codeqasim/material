@@ -15,21 +15,36 @@
 @import "components/waves.css";
 
 :root {
-	--theme-icon: #3f51b5;
-	--theme-bg: #3f51b5;
+	--theme-icon: #007FFF;
+	--theme-bg: #007FFF;
 	--theme-bg-light: #ecefff;
-	--theme-text: #3f51b5;
+	--theme-text: #007FFF;
 }
+
+ @font-face {
+    font-family: 'PlusJakartaSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PlusJakartaSans-Regular'), url('../fonts/PlusJakartaSans-Regular.woff') format('woff');
+ }
+
+ @font-face {
+    font-family: 'PlusJakartaSans-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PlusJakartaSans-Bold'), url('../fonts/PlusJakartaSans-Bold.woff') format('woff');
+ }
 
 *, *::before, *::after { box-sizing: inherit; scroll-behavior:smooth; }
 html { box-sizing: border-box; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; box-sizing: border-box; text-size-adjust: 100%; }
-body { color: rgba(0, 0, 0, 0.87); margin: 0; font-size: 0.875rem; font-family: "system-ui", "Helvetica", "Arial", sans-serif; font-weight: 400; line-height: 1.43; letter-spacing: 0.01071em; background-color: #fff; opacity: 0; transition: opacity 0.1s; -webkit-transition: opacity 0.1s; }
+body { color: rgba(0, 0, 0, 0.87); margin: 0; font-size: 0.875rem; font-family:'PlusJakartaSans-Regular'; font-weight: 400; line-height: 1.43; letter-spacing: 0.01071em; background-color: #fff; opacity: 0; transition: opacity 0.1s; -webkit-transition: opacity 0.1s; }
 body::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-thumb { border: none; border-radius: 8px; background-color: rgba(99, 115, 129, 0.48); }
 body::-webkit-scrollbar, body *::-webkit-scrollbar { width: 8px; height: 6px; background-color: rgba(145, 158, 171, 0.24); }
 a,a:visited{color:#000;text-decoration:none;}
 input{ width: 100%; display: block; -webkit-transition: all 0.5s ease-out; -moz-transition: all 0.5s ease-out; -o-transition: all 0.5s ease-out; -ms-transition: all 0.5s ease-out; transition: all 0.5s ease-out; outline: 0px; }
 ul{margin:0;padding:0;list-style: none;}
 object,img{width:100%;border-radius: 10px;}
+strong,b,.strong{font-family:'PlusJakartaSans-bold'}
 
 /* for angular loading */
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak { display: none !important; }   
