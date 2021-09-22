@@ -2,8 +2,6 @@
 .hero h1 strong span{ background: linear-gradient(to right, #007FFF, #0059B2); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
 .hero h2 { font-size: 18px; font-weight: 300; line-height: 28px; margin: 15px 0 25px; }
 
-
-
 .home .body { align-items: center; display: flex; flex-direction: column; padding: 16px; }
 .home .body .content{ display: flex; max-width: 920px; margin: 60px 0; }
 
