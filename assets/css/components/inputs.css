@@ -1,7 +1,6 @@
 /* global */
 select {outline: none;}
 
-
 /* filles */
 .filled{position:relative;display:inline-block;font-family:var(--pure-material-font,"Roboto","Segoe UI",BlinkMacSystemFont,system-ui,-apple-system);font-size:16px;line-height:1.5;overflow:hidden}
 .filled>input,.filled>textarea{display:block;box-sizing:border-box;margin:0;border:0;border-top:solid 27px transparent;border-bottom:solid 1px rgba(var(--pure-material-onsurface-rgb,0,0,0),0.6);border-radius:4px 4px 0 0;padding:0 12px 10px;width:100%;height:inherit;color:rgba(var(--pure-material-onsurface-rgb,0,0,0),0.87);background-color:rgba(var(--pure-material-onsurface-rgb,0,0,0),0.04);box-shadow:none;font-family:inherit;font-size:inherit;line-height:inherit;caret-color:rgb(var(--pure-material-primary-rgb,33,150,243));transition:border-bottom .2s,background-color .2s}
@@ -56,5 +55,3 @@ select {outline: none;}
 .filled select ~ span {color: #484a4fe0; position: absolute; margin-left: -37px; margin-top: 20px; width: 10px; height: 10px; border-bottom: solid 1px currentColor; border-left: solid 1px currentColor; transform: rotate( -45deg);}
 .filled>select:hover, .filled>select:hover { cursor: pointer; border-bottom-color: rgba(var(--pure-material-onsurface-rgb,0,0,0),0.87); background-color: rgba(var(--pure-material-onsurface-rgb,0,0,0),0.08); }
 .filled>select:focus { border-color: transparent var(--theme-bg) var(--theme-bg); box-shadow: inset 0px 0px var(--theme-bg),inset 0px 0 var(--theme-bg),inset 0 -2px var(--theme-bg);}
-
- 
