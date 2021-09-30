@@ -1,6 +1,7 @@
 /* global */
 select {outline: none;}
 
+
 /* filles */
 .filled{margin-bottom: 15px; position:relative;display:inline-block;font-family:var(--pure-material-font,"Roboto","Segoe UI",BlinkMacSystemFont,system-ui,-apple-system);font-size:16px;line-height:1.5;overflow:hidden}
 .filled>input,.filled>textarea{display:block;box-sizing:border-box;margin:0;border:0;border-top:solid 27px transparent;border-bottom:solid 1px rgba(var(--pure-material-onsurface-rgb,0,0,0),0.6);border-radius:4px 4px 0 0;padding:0 12px 10px;width:100%;height:inherit;color:rgba(var(--pure-material-onsurface-rgb,0,0,0),0.87);background-color:rgba(var(--pure-material-onsurface-rgb,0,0,0),0.04);box-shadow:none;font-family:inherit;font-size:inherit;line-height:inherit;caret-color:rgb(var(--pure-material-primary-rgb,33,150,243));transition:border-bottom .2s,background-color .2s}
@@ -43,7 +44,7 @@ select {outline: none;}
 /* select outline  */
 .outlined select{background:transparent;width:200px;height:35px;padding:5px;font-size:16px;line-height:1;border:0;border-radius:0;-webkit-appearance:none}
 .outlined select {width: 100%; padding: 16px; border: 1px solid #575757;min-height:56px;overflow:hidden;background:no-repeat right #fff;border-radius:3px 5px 5px 3px}
-.outlined select{padding-right:0;vertical-align:top!important;text-align:left;height:auto;line-height:26px;}
+.outlined select{padding-right:0;vertical-align:top!important;text-align:left;line-height:26px;}
 .outlined select ~ span {color: #484a4fe0; position: absolute; margin-left: -37px; margin-top: 20px; width: 10px; height: 10px; border-bottom: solid 1px currentColor; border-left: solid 1px currentColor; transform: rotate( -45deg);}
 .outlined select:focus{border-color: transparent var(--theme-bg) var(--theme-bg); box-shadow: inset 1px 2px var(--theme-bg),inset -1px 0 var(--theme-bg),inset 0 -1px var(--theme-bg); outline: 0;}
 
@@ -53,9 +54,6 @@ select {outline: none;}
 .filled select{padding-right:0;vertical-align:top!important;text-align:left;height:auto;line-height:26px;background-color: rgba(var(--pure-material-onsurface-rgb,0,0,0),0.04);}
 .filled select ~ span {color: #484a4fe0; position: absolute; margin-left: -37px; margin-top: 20px; width: 10px; height: 10px; border-bottom: solid 1px currentColor; border-left: solid 1px currentColor; transform: rotate( -45deg);}
 .filled>select:hover, .filled>select:hover { border-bottom-color: rgba(var(--pure-material-onsurface-rgb,0,0,0),0.87); background-color: rgba(var(--pure-material-onsurface-rgb,0,0,0),0.08); }
-
 .filled>select:focus { border-color: transparent var(--theme-bg) var(--theme-bg); box-shadow: inset 0px 0px var(--theme-bg),inset 0px 0 var(--theme-bg),inset 0 -2px var(--theme-bg);}
 
-/*.filled>select+span::after, .filled>select::after { content: ""; position: absolute; left: 0; bottom: 0; display: block; width: 100%; height: 2px; background-color: var(--theme-bg); transform-origin: bottom center; transform: scaleX(0); transition: transform .3s; }
-.filled>select:focus, .filled>select:focus { transform: scale(1); }*/
-
+ 
