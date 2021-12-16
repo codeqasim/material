@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
 @import "web.css";
 @import "components/grid.css";
 @import "components/appbar.css";
@@ -21,7 +23,6 @@
 	--theme-text: #007FFF;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 /* 
 @font-face {
    font-family: 'PlusJakartaSans-Regular';
